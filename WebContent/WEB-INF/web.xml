@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
-	<display-name>layerupdate</display-name>
+	<display-name>commonProject</display-name>
 	
 	<session-config>
 	    <session-timeout>10</session-timeout>
@@ -11,7 +11,7 @@
 	
 	<context-param>
 		<param-name>resteasy.resources</param-name>
-		<param-value>com.tetratech.layerupdate.rest.RestService</param-value>
+		<param-value>com.github.cloud.RestService</param-value>
 	</context-param>
 	
 	<servlet>
