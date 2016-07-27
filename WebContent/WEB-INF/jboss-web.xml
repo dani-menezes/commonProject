@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<jboss-web>
+    <!-- URL to access the web module -->
+    <context-root>commonProject</context-root>
+
+    <!-- SECURITY DOMAIN - JBOSS REALM -->
+	<security-domain>java:/jaas/PortalRealms</security-domain>
+    <valve>
+		<class-name>org.apache.catalina.authenticator.SingleSignOn</class-name>
+		<class-name changeSessionIdOnAuthentication="true">
+            org.apache.catalina.authenticator.FormAuthenticator
+        </class-name>
+	</valve>
+	
+</jboss-web>
