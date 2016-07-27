@@ -26,8 +26,7 @@
 								<configuration>
 									<tasks>
 										<delete file="src/main/resources/environment.properties" />
-										<copy file="src/main/resources/environment.dev.properties"
-											tofile="src/main/resources/environment.properties" />
+										<copy file="src/main/resources/environment.dev.properties" tofile="src/main/resources/environment.properties" />
 									</tasks>
 								</configuration>
 							</execution>
@@ -51,8 +50,7 @@
 								<configuration>
 									<tasks>
 										<delete file="src/main/resources/environment.properties" />
-										<copy file="src/main/resources/environment.hom.properties"
-											tofile="src/main/resources/environment.properties" />
+										<copy file="src/main/resources/environment.hom.properties" tofile="src/main/resources/environment.properties" />
 									</tasks>
 								</configuration>
 							</execution>
@@ -76,8 +74,7 @@
 								<configuration>
 									<tasks>
 										<delete file="src/main/resources/environment.properties" />
-										<copy file="src/main/resources/environment.prd.properties"
-											tofile="src/main/resources/environment.properties" />
+										<copy file="src/main/resources/environment.prd.properties" tofile="src/main/resources/environment.properties" />
 									</tasks>
 								</configuration>
 							</execution>
